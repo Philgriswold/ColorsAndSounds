@@ -9,4 +9,12 @@ public class Cessna : Vehicle
     {
         Console.WriteLine($"The {MainColor} Cessna flies");
     }
+    public override void Turn()
+    {
+        Console.WriteLine($"The {MainColor} Cessna turns");
+    }
+    public override void Stop()
+    {
+        Console.WriteLine($"The {MainColor} Cessna stops");
+    }
 }

@@ -9,4 +9,12 @@ public class Zero : Vehicle
     {
         Console.WriteLine($"The {MainColor} Zero drives");
     }
+    public override void Turn()
+    {
+        Console.WriteLine($"The {MainColor} Zero turns");
+    }
+    public override void Stop()
+    {
+        Console.WriteLine($"The {MainColor} Zero stops");
+    }
 }

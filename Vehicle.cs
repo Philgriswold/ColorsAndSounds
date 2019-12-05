@@ -9,5 +9,13 @@ public class Vehicle
     {
         Console.WriteLine("Vrroooooom");
     }
+    public virtual void Turn()
+    {
+        Console.WriteLine("Wowowowow");
+    }
+    public virtual void Stop()
+    {
+        Console.WriteLine("Screeeech");
+    }
 
 }

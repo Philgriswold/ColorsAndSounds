@@ -9,4 +9,12 @@ public class Tesla : Vehicle
     {
         Console.WriteLine($"The {MainColor} Tesla drives");
     }
+    public override void Turn()
+    {
+        Console.WriteLine($"The {MainColor} Tesla turns");
+    }
+    public override void Stop()
+    {
+        Console.WriteLine($"The {MainColor} Tesla stops");
+    }
 }

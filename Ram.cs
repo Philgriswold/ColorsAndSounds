@@ -9,4 +9,12 @@ public class Ram : Vehicle
     {
         Console.WriteLine($"The {MainColor} Ram drives");
     }
+    public override void Turn()
+    {
+        Console.WriteLine($"The {MainColor} Ram turns");
+    }
+    public override void Stop()
+    {
+        Console.WriteLine($"The {MainColor} Ram stops");
+    }
 }
